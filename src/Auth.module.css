@@ -1,0 +1,89 @@
+.main1{
+   width: 400px;
+   height: 450px;
+   border-radius: 20px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   float: right;
+   margin-right: 15%;
+   margin-top: 11%;
+   padding-top: 50px;
+   padding-bottom: 20px;
+   background-color: rgb(104, 255, 73);
+}
+.img{
+    float: left;
+}
+.img1{
+    width: 650px;
+    height: 650px;
+    margin-top: 8%;
+    margin-left: 20%;
+    animation: anime 2.5s infinite;
+}
+@keyframes anime{
+   0%{
+    transform: translateY(0);
+   }
+   50%{
+    transform: translateY(-14px);
+   }
+   100%{
+    transform: translateY(0);
+   }
+}
+input[type=email]
+{
+    margin-left: 15%;
+    width: 250px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 2%;
+}
+input[type=password]
+{
+    margin-left: 15%;
+    width: 250px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 2%;
+}
+.select
+{
+    margin-left: 15%;
+    width: 275px;
+    height: 50px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 2%;
+    font-weight: 400;
+    font-family: 'Poppins';
+    border: 2px solid black;
+}
+.lab{
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 15%;
+}
+.btn{
+    width: 275px;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    border-radius: 7px;
+    border: 2px solid black;
+    margin-left: 15%;
+    padding: 10px 40px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.4s;
+    color: white;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
